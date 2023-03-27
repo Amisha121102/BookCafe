@@ -1,0 +1,68 @@
+.App {
+	background-image: url("./photos/bg-design.png");
+	background-size: cover;
+	text-align: center;
+	background-position: center;
+	background-color: #1D97FD;
+	opacity: 0.9;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .auth-form-container,
+  .login-form,
+  .register-form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  label {
+	text-align: left;
+	padding: 0.25rem 0;
+  }
+  
+  input {
+	margin: 0.5rem 0;
+	padding: 1rem;
+	border: none;
+	border-radius: 10px;
+  }
+  
+  button {
+	border: none;
+	background-color: #1D97FD;
+	padding: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	font-weight: normal;
+  }
+  
+  .link-btn {
+	background: none;
+	color: white;
+	text-decoration: underline;
+  }
+  
+  .login-container {
+	display: flex;
+	padding: 2rem 5rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #000513;
+	z-index: 999999;
+	font-weight: bold;
+	color: BLACK;
+	background-color: aliceblue;
+	margin-left:40vw;
+  }
+  
+
+.nav-link{
+   color: BLACK;
+   font-size: medium;
+}
